@@ -1,0 +1,39 @@
+object Frm_Preview: TFrm_Preview
+  Left = 5
+  Top = 167
+  Width = 674
+  Height = 498
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSizeToolWin
+  BorderWidth = 3
+  Caption = 'Preview your NFO...'
+  Color = clBtnFace
+  Constraints.MinHeight = 498
+  Constraints.MinWidth = 674
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PrintScale = poNone
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 658
+    Height = 457
+    Color = clBlack
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWhite
+    Font.Height = -12
+    Font.Name = 'Terminal'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+end
